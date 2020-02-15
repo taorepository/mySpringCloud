@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/activemqdemo/activemqdemo.iml" filepath="$PROJECT_DIR$/activemqdemo/activemqdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud.iml" filepath="$PROJECT_DIR$/cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feignconsumer/feignconsumer.iml" filepath="$PROJECT_DIR$/feignconsumer/feignconsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feignprovider/feignprovider.iml" filepath="$PROJECT_DIR$/feignprovider/feignprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/serviceribbon/serviceribbon.iml" filepath="$PROJECT_DIR$/serviceribbon/serviceribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootclient/springbootclient.iml" filepath="$PROJECT_DIR$/springbootclient/springbootclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul_client/zuul_client.iml" filepath="$PROJECT_DIR$/zuul_client/zuul_client.iml" />
     </modules>
   </component>
 </project>

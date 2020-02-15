@@ -6,17 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="activemqdemo" />
         <module name="cloud" />
         <module name="eureka" />
+        <module name="feignconsumer" />
+        <module name="feignprovider" />
+        <module name="redis" />
         <module name="serviceribbon" />
         <module name="springbootclient" />
+        <module name="zuul_client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="activemqdemo" target="1.8" />
       <module name="cloud" target="1.5" />
       <module name="eureka" target="1.8" />
+      <module name="feignconsumer" target="1.8" />
+      <module name="feignprovider" target="1.8" />
+      <module name="redis" target="1.8" />
       <module name="serviceribbon" target="1.8" />
       <module name="springbootclient" target="1.8" />
+      <module name="zuul_client" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
